@@ -1,10 +1,44 @@
 
+@font-face {
+  font-family: SFPro;
+  src: url('System San Francisco Display Regular.ttf');
+}
+@font-face {
+  font-family: SFPro;
+  src: url('System San Francisco Display Bold.ttf');
+  font-weight: bold;
+}
 
+p {
+  font-family: SFPro, Roboto, sans-serif;
+}
+.cities {
+  font-family: SFPro;
+  font-weight: bold;
+  list-style: none;
+  color: #9d0a0e;
+  display: flex;
+  justify-content: space-evenly;
+}
+
+.dot {
+  height: 10px;
+  width: 10px;
+  background-color: #9d0a0e;
+  border-radius: 50%;
+  display: inline-block;
+  margin: auto 0;
+}
 .menulogo-container {
   display: flex;
-
 }
+
 .logo img {
   width: 200px;
   max-height: auto;
+}
+
+.main-menu ul {
+  display: flex;
+  list-style: none;
 }
