@@ -105,3 +105,19 @@ p {
   line-height: 1.5em;
 
 }
+/* Service section styles */
+
+.services-container {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  width: 90%;
+  margin: 0 auto;
+}
+.service {
+  width: 22%;
+}
+.service-image img {
+  width: 200px;
+  height: auto;
+}
