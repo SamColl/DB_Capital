@@ -8,10 +8,29 @@
   src: url('System San Francisco Display Bold.ttf');
   font-weight: bold;
 }
-
+body {
+  max-width: 100%;
+  padding: 0 2%;
+}
+header {
+  width: 100%;
+}
 p {
   font-family: SFPro, Roboto, sans-serif;
 }
+
+.main-menu ul li a {
+  text-decoration: none;
+  color: #333333;
+  font-size: 1.1em;
+  font-family: SFPro, Roboto, sans-serif
+}
+
+.main-menu ul li a:hover {
+  color: #b2b2b2;
+}
+/* header styles */
+
 .cities {
   font-family: SFPro;
   font-weight: bold;
@@ -31,6 +50,7 @@ p {
 }
 .menulogo-container {
   display: flex;
+  justify-content: space-between;
 }
 
 .logo img {
@@ -41,4 +61,47 @@ p {
 .main-menu ul {
   display: flex;
   list-style: none;
+  justify-content: flex-end;
+
+}
+.main-menu ul li {
+  margin: 2%;
+}
+.main-menu {
+  width: 100%;
+}
+/* hero section styles */
+.hero {
+  background-color: #9d0a0e;
+  position: relative;
+
+}
+.hero img {
+  width: 100%;
+  height: auto;
+  opacity: 0.4;
+}
+.hero-text {
+  position: absolute;
+  bottom: 15%;
+  width: 100%;
+  margin: 0 auto;
+}
+
+.hero-text h1,
+.hero-text h2 {
+  color: white;
+  font-weight: bold;
+  font-family: SFPro, Roboto, sans-serif;
+}
+.hero-text h1 {
+  font-size: 5em;
+  text-align: center;
+}
+.hero-text h2 {
+  font-size: 2.8em;
+  text-align: center;
+  padding: 0 2%;
+  line-height: 1.5em;
+
 }
