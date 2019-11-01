@@ -17,6 +17,7 @@ header {
 }
 p {
   font-family: SFPro, Roboto, sans-serif;
+  color: #58585a;
 }
 
 .main-menu ul li a {
@@ -234,4 +235,14 @@ p {
   text-align: center;
   padding-top: 2%;
   font-family: SFPro;
+}
+.client-experience-text {
+
+  border-left: 5px solid #9d1c20;
+  width: 90%;
+  margin: 0 auto;
+}
+.client-experience-text p {
+  font-size: 1.2em;
+  margin-left: 1%;
 }
