@@ -246,3 +246,14 @@ p {
   font-size: 1.2em;
   margin-left: 1%;
 }
+.people {
+  background-color: #58585a;
+  display: flex;
+}
+.people img {
+  width: 300px;
+  height: auto;
+}
+.people-text p {
+  color: white;
+}
