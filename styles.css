@@ -285,26 +285,29 @@ p {
 
 }
 .people {
-  
-
+  text-align: center;
 }
 .md-image {
   object-fit: contain;
-  width: 25%;
+
 }
 .md-image img {
   width: 170px;
   border:5px #ffffff solid
 }
 .people-text {
-  width: 75%;
+
   font-size: 1.2em;
-  margin-left: 1%;
+  margin: 1%;
   line-height: 1.5em;
+  text-align: left;
   }
 .people-text p {
   color: white;
   margin-left: 4%;
+}
+.md-text {
+  color:white;
 }
 .db-capital {
   color: #9d1c20;
