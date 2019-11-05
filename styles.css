@@ -294,3 +294,19 @@ p {
   color: #9d1c20;
   font-weight: bold;
 }
+.contact img {
+  width: 250px;
+  margin: 0 auto;
+  display: block;
+}
+.contact-details p {
+  font-size: 1.2em;
+  line-height: 1.5em;
+
+}
+.contact-details {
+  text-align: center;
+}
+.contact-details a {
+  color: #9d0a0e;
+}
