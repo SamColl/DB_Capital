@@ -242,17 +242,31 @@ p {
   align-items: center;
   margin: 2%;
   background-color: #e1e1e1;
-  padding-top: 2%;
+
 
 }
 .asset-image img {
-  width: 200px;
-  height: auto;
+  width: 100%;
+  height: 180px;
+
+}
+.asset-image {
+  width: 100%;
+  object-fit: cover;
 }
 .asset {
   text-align: center;
   padding-top: 2%;
   font-family: SFPro;
+  color: #58585a;
+
+}
+.asset h2 {
+  color: #58585a;
+}
+.asset-text p {
+  color: #58585a;
+  font-weight: bold;
 }
 .client-experience-text {
 
@@ -271,9 +285,7 @@ p {
 
 }
 .people {
-  display: flex;
-  justify-content: space-between;
-  align-items: flex-start;
+  
 
 }
 .md-image {
