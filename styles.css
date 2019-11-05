@@ -10,10 +10,18 @@
 }
 body {
   max-width: 100%;
-  padding: 0 2%;
+  padding: 0 3%;
+  background-color: #eeeeee;
+}
+.main-container {
+  background-color: white;
 }
 header {
   width: 100%;
+  background-color: white;
+}
+.header-image {
+  padding-top: 1.8%;
 }
 p {
   font-family: SFPro, Roboto, sans-serif;
@@ -116,6 +124,7 @@ p {
   margin: 0 auto;
   align-items: center;
   padding: 3%;
+  background-color: white;
 }
 .service {
   width: 22%;
@@ -169,10 +178,15 @@ p {
 .grey-heading {
   color: #58585a;
 }
+.white-heading {
+  color: white;
+}
 .red-heading,
-.grey-heading {
+.grey-heading,
+.white-heading{
   text-align: center;
   font-family: SFPro;
+  font-size: 2em;
 }
 
 /*seperator styles
@@ -246,14 +260,37 @@ p {
   font-size: 1.2em;
   margin-left: 1%;
 }
+.people-container {
+  background-color: #919193;
+  padding: 2%;
+
+  margin: 0 auto;
+
+}
 .people {
-  background-color: #58585a;
   display: flex;
+  justify-content: space-between;
+
 }
-.people img {
-  width: 300px;
-  height: auto;
+.md-image {
+  object-fit: contain;
+  width: 25%;
 }
+.md-image img {
+  width: 200px;
+  border:10px #984020 solid
+}
+.people-text {
+  width: 75%;
+  font-size: 1.2em;
+  margin-left: 1%;
+  line-height: 1.5em;
+  }
 .people-text p {
   color: white;
+  margin-left: 4%;
+}
+.db-capital {
+  color: #9d1c20;
+  font-weight: bold;
 }
