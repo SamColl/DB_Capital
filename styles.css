@@ -201,23 +201,33 @@ p {
   min-height: 50px;
   position: relative;
 }
-.wave-divider-opp-lower {
-  width: 100%;
-  min-height:50px;
+.wave-divider-opp {
+
 }
 .wave-divider:before {
+    background: url('images/SVG/wave.svg');
+}
+.wave-divider-opp:before {
+    background: url('images/SVG/white-wave.svg');
+    content: '';
+    position: absolute;
+    left: 0;
+    top: -50px;
+    width: 100%;
+    height: 350px;
+    background-repeat:no-repeat;
+
+}
+.wave-divider:before
+ {
   content: '';
   position: absolute;
   left: 0;
   width: 100%;
   height: 150px;
-  background: url('images/SVG/wave.svg');
   background-repeat:no-repeat;
 }
-.wave-divider-opp {
-  position: relative;
-  background: linear-gradient(180deg, #b7b7b7, white);
-}
+
 /*seperator styles
 .separator {
   position: relative;
@@ -256,6 +266,7 @@ p {
   display: flex;
   justify-content: space-evenly;
   margin: 2%;
+  margin-bottom: 100px;
 }
 .hard-asset,
 .soft-asset {
