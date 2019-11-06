@@ -191,10 +191,34 @@ p {
   text-align: center;
   font-family: SFPro;
   font-size: 2em;
+  position: relative;
 }
 
-/*seperator styles
 
+.wave-divider,
+.wave-divider-opp {
+  width: 100%;
+  min-height: 50px;
+  position: relative;
+}
+.wave-divider-opp-lower {
+  width: 100%;
+  min-height:50px;
+}
+.wave-divider:before {
+  content: '';
+  position: absolute;
+  left: 0;
+  width: 100%;
+  height: 150px;
+  background: url('images/SVG/wave.svg');
+  background-repeat:no-repeat;
+}
+.wave-divider-opp {
+  position: relative;
+  background: linear-gradient(180deg, #b7b7b7, white);
+}
+/*seperator styles
 .separator {
   position: relative;
   width: var(--width);
