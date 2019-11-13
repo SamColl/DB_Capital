@@ -47,10 +47,11 @@ p {
   color: #9d0a0e;
   display: flex;
   justify-content: space-evenly;
-  font-size: 1.5em;
+  font-size: 1em;
   align-items: center;
   height: 100%;
   margin: 0;
+  padding-left: 0;
 }
 
 .dot {
@@ -64,11 +65,13 @@ p {
 .menulogo-container {
   display: flex;
   justify-content: space-between;
+  align-items: center;
 }
 
 .logo img {
-  width: 250px;
+  width: 300px;
   max-height: auto;
+  margin: 10%;
 }
 
 .main-menu ul {
