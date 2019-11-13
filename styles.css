@@ -213,10 +213,10 @@ p {
   content: '';
   position: absolute;
   left: 0;
-  top: -50px;
+  top: -90px;
   width: 100%;
   height: 350px;
-  background-repeat:no-repeat;
+  background-repeat:repeat-x;
 }
 .wave-divider:before {
     background: url('images/SVG/wave.svg');
@@ -331,7 +331,7 @@ p {
 }
 .people-container {
   background-color: #919193;
-  padding: 2%;
+  padding: 2% 2% 8% 2%;
   margin: 0 auto;
 
 }
@@ -386,4 +386,33 @@ p {
 footer {
   background-color: #919193;
   height: 7em;
+}
+
+/* media queries */
+
+@media screen and (max-width:1100px)and (min-width:900px) {
+  .hero-text h1 {
+    font-size: 4em;
+  }
+  .hero-text h2 {
+    font-size: 2em;
+  }
+
+}
+@media screen and (max-width:899px) {
+  .hero-text h1 {
+    font-size: 3em;
+  }
+  .hero-text h2 {
+    font-size: 1.8em;
+  }
+}
+
+@media screen and (max-width:670px) {
+.hero-text h1 {
+  font-size: 2.5em;
+}
+.hero-text h2 {
+  font-size: 1.2em;
+}
 }
