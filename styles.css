@@ -16,7 +16,8 @@ body {
 .main-container {
   background-color: white;
 }
-header {
+header,
+.fixed-header {
   width: 100%;
   background-color: white;
 }
@@ -97,11 +98,13 @@ p {
 }
 
 .logo img {
-  width: 300px;
+  width: 340px;
   max-height: auto;
-  margin: 10%;
+  margin: 7%;
 }
-
+.fixed-logo img {
+  width: 250px;
+}
 .main-menu ul {
   display: flex;
   list-style: none;
@@ -228,7 +231,8 @@ p {
 
 .wave-divider,
 .wave-divider-opp,
-.KL-tower-divider {
+.KL-tower-divider,
+.wave-divider-dark {
   width: 100%;
   min-height: 50px;
   position: relative;
@@ -249,6 +253,9 @@ p {
 .wave-divider:before {
     background: url('images/SVG/wave.svg');
 }
+.wave-divider-dark:before {
+  background: url('images/SVG/dark-grey-wave.svg');
+}
 .wave-divider-opp:before {
     background: url('images/SVG/white-wave.svg');
     content: '';
@@ -259,7 +266,8 @@ p {
     height: 350px;
     background-repeat:no-repeat;
 }
-.wave-divider:before
+.wave-divider:before,
+.wave-divider-dark:before
  {
   content: '';
   position: absolute;
