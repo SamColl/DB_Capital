@@ -12,9 +12,11 @@ body {
   max-width: 100%;
   padding: 0 3%;
   background-color: #eeeeee;
+  margin:0;
 }
 .main-container {
   background-color: white;
+  width: 100%;
 }
 header,
 .fixed-header {
@@ -94,10 +96,10 @@ header
 .hide {
   display: none;
 }
-#fixed-header {
+.fixed-header {
   display: none;
 }
-#fixed-header img {
+.fixed-header img {
   width: 250px;
 
 }
@@ -110,10 +112,18 @@ header
   margin: auto 0;
 }
 
-.menulogo-container  {
+.menulogo-container,
+.fixed-menu-logo-container  {
   display: flex;
   justify-content: space-between;
   align-items: center;
+}
+.fixed-menu-logo-container {
+  position: fixed;
+  z-index: 5;
+  background: white;
+  width: 94%;
+  top: 0;
 }
 
 .logo img {
@@ -123,14 +133,14 @@ header
 }
 
 .main-menu ul,
-#fixed-main-menu ul {
+.fixed-main-menu ul {
   display: flex;
   list-style: none;
   justify-content: flex-end;
 
 }
 .main-menu ul li,
-#fixed-main-menu ul li {
+.fixed-main-menu ul li {
   margin: 2%;
 }
 .main-menu {
@@ -140,6 +150,7 @@ header
 .hero {
 
   position: relative;
+
 
 }
 .hero img {
