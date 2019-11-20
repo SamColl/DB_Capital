@@ -4,11 +4,13 @@
   <title>DB Capital</title>
   <link rel="stylesheet" type="text/css" href="styles.css">
   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
-  <script type="text/javascript"  src="script.js"></script>
+
+
+
 </head>
 <body>
   <div class="main-container">
-  <header>
+  <header id="main-header">
     <div class="header-image">
       <ul class="cities">
         <li>Kuala Lumpur</li>
@@ -25,7 +27,7 @@
       </ul>
 
     </div>
-    <div class="menulogo-container">
+    <div class="menulogo-container"  id="myHeader">
       <div class="logo">
         <img src="images/db Global Logo_db-01.png">
       </div>
@@ -38,8 +40,9 @@
           <li><a href="#contact">Contact</a></li>
         </ul>
       </nav>
-      <!-- on scroll fixed header -->
-    <div class="fixed-header">
+    </header>
+
+    <header id="fixed-header">
       <div class="fixed-menu-logo-container">
         <div class="fixed-logo">
           <img src="images/db Global Logo_db-01.png">
@@ -54,8 +57,9 @@
           </ul>
         </nav>
     </div>
+  </header>
       <!--mobile hamburger menu -->
-      <div class="mobile-nav">
+      <header class="mobile-header">
   <!-- Navigation links (hidden by default) -->
     <div id="myLinks">
       <a href="#services">Services</a>
@@ -68,14 +72,11 @@
   <a href="javascript:void(0);" class="icon" onclick="myFunction()">
     <i class="fa fa-bars"></i>
   </a>
-</div>
+</header>
 
 
-
-    </div>
-  </header>
   <section class="hero">
-    <img src="images/Composite-skyline.jpg">
+    <img src="images/KL-skyline-2.jpg">
     <div class="hero-text">
       <h1>The Power of Partnership</h1>
       <h2>Providers of Quality Independent Advisory, Non-Executive and  Management
@@ -368,5 +369,7 @@ and benefits are essential issues to fully understand at the outset.</span>
     <li class="dot"></li>
     <li>Chicago</li>
   </ul>
+<script type="text/javascript"  src="script.js"></script>
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
 
 </footer>
