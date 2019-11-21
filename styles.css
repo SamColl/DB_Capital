@@ -48,15 +48,15 @@ font-size: 1em;
   color: #b2b2b2;
 }
 /* mobile menu styles */
-.mobile-nav {
+.mobile-header {
   overflow: hidden;
   background-color: white;
   position: relative;
-  display: block;
+  display: none;
 
 }
 
-.mobile-nav a {
+.mobile-header a {
   color: #333333;
   font-size: 1em;
   line-height: 1.1em;
@@ -65,7 +65,7 @@ font-size: 1em;
   display: block;
   padding: 1%;
 }
-  .mobile-nav a.icon {
+  .mobile-header a.icon {
   background: white;
   display: block;
   font-size: 2em;
@@ -90,17 +90,17 @@ header
   margin: 0;
   padding-left: 0;
 }
-.show {
-  display: flex;
-}
+
 .hide {
   display: none;
 }
 .fixed-header {
   display: none;
+  height: 50px;
 }
 .fixed-header img {
   width: 250px;
+  margin: 7%;
 
 }
 .dot {
@@ -118,6 +118,9 @@ header
   justify-content: space-between;
   align-items: center;
 }
+.menulogo-container {
+  height: 150px;
+}
 .fixed-menu-logo-container {
   position: fixed;
   z-index: 5;
@@ -130,6 +133,7 @@ header
   width: 340px;
   max-height: auto;
   margin: 7%;
+  padding-top: 2%;
 }
 
 .main-menu ul,
@@ -143,7 +147,8 @@ header
 .fixed-main-menu ul li {
   margin: 2%;
 }
-.main-menu {
+.main-menu,
+.fixed-main-menu {
   width: 100%;
 }
 /* hero section styles */
@@ -193,6 +198,8 @@ header
   align-items: center;
   padding: 3%;
   background-color: white;
+  margin-top: 7%;
+
 }
 .service {
   width: 22%;
@@ -245,6 +252,10 @@ header
 }
 .grey-heading {
   color: #58585a;
+
+}
+#services-grey {
+    top: 100px;
 }
 .white-heading {
   color: white;
