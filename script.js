@@ -2,7 +2,7 @@
 window.onscroll = function() {scrollFunction()};
 
 function scrollFunction() {
-  if (document.body.scrollTop > 50 || document.documentElement.scrollTop > 50) {
+  if (document.body.scrollTop > 60 || document.documentElement.scrollTop > 60) {
     $(".menulogo-container").hide();
     $(".header-image").hide();
     $(".fixed-header").css('display', 'flex');

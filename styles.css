@@ -97,10 +97,18 @@ header
 .fixed-header {
   display: none;
   height: 50px;
+  -webkit-transition: all 0.4s ease-in-out;
+  -moz-transition: all 0.4s ease-in-out;
+  -o-transition: all 0.4s ease-in-out;
+  transition: all 0.4s ease-in-out;
 }
 .fixed-header img {
   width: 250px;
   margin: 7%;
+  -webkit-transition: all 0.4s ease-in-out;
+  -moz-transition: all 0.4s ease-in-out;
+  -o-transition: all 0.4s ease-in-out;
+  transition: all 0.4s ease-in-out;
 
 }
 .dot {
@@ -120,6 +128,10 @@ header
 }
 .menulogo-container {
   height: 150px;
+  -webkit-transition: all 0.4s ease-in-out;
+  -moz-transition: all 0.4s ease-in-out;
+  -o-transition: all 0.4s ease-in-out;
+  transition: all 0.4s ease-in-out;
 }
 .fixed-menu-logo-container {
   position: fixed;
