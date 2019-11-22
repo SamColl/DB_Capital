@@ -255,12 +255,8 @@ header
 .service-text {
   text-align: center;
 }
-/* Tooltip container */
-.tooltip {
-  position: relative;
-  display: inline-block;
-  border-bottom: 1px dotted black;
-}
+
+
 /* Tooltip text */
 #tooltip .tooltiptext {
   visibility: hidden;
@@ -618,7 +614,7 @@ footer .cities {
 .service-image img {
   width: 45px;
 }
-.tooltiptext {
+#tooltip .tooltiptext {
   width: 90%;
 }
 .service {
