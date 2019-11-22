@@ -654,9 +654,6 @@ footer .cities {
     display: flex;
     flex-wrap: wrap;
   }
-}
-
-@media screen and (max-width: 520px) {
   .service-container  {
     display: block;
 }
@@ -670,16 +667,21 @@ footer .cities {
 .cities  {
   display: none;
 }
-.hero-text h1 {
-  font-size: 1.8em;
+
+
 }
-.hero-text h2 {
-  font-size: 0.9em;
-}
-.wave-divider,
-.KL-tower-divider,
-.wave-divider-opp,
-.wave-divider-dark {
-  display: none;
-}
+
+@media screen and (max-width: 520px) {
+  .hero-text h1 {
+    font-size: 1.8em;
+  }
+  .hero-text h2 {
+    font-size: 0.9em;
+  }
+  .wave-divider,
+  .KL-tower-divider,
+  .wave-divider-opp,
+  .wave-divider-dark {
+    display: none;
+  }
 }
