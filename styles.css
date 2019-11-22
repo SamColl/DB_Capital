@@ -24,9 +24,7 @@ header,
   background-color: white;
 
 }
-.header-image {
-  padding-top: 1.8%;
-}
+
 p {
   font-family: SFPro, Roboto, sans-serif;
   color: #58585a;
@@ -566,6 +564,10 @@ footer .cities {
     display: none;
   }
 
+  .cities  {
+    display: none;
+  }
+
 }
 @media screen and (min-width:670px) and (max-width:940px) {
   .hard-asset,
@@ -581,6 +583,7 @@ footer .cities {
   }
 }
 @media screen and (max-width:669px) {
+
   .asset-image img {
     height: 200px;
   }
@@ -637,12 +640,6 @@ footer .cities {
 #services-grey {
   position: static;
 }
-.header-image,
-.cities  {
-  display: none;
-}
-
-
 }
 
 @media screen and (min-width:480px) and (max-width:699px) {
