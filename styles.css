@@ -630,6 +630,7 @@ footer .cities {
 }
 .services-container  {
   display: block;
+  margin-bottom: 0;
 }
 .red-heading,
 .grey-heading,
