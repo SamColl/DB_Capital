@@ -277,7 +277,7 @@ header
 /* Show the tooltip text when you mouse over the tooltip container */
 
 @media(any-hover) {
-   #tooltip:hover .tooltiptext {
+   #tooltip:hover .tooltiptext{
   visibility: visible;
 }
 }
@@ -630,7 +630,7 @@ footer .cities {
 }
 .services-container  {
   display: block;
-  margin-bottom: 0;
+
 }
 .red-heading,
 .grey-heading,
@@ -667,11 +667,6 @@ footer .cities {
     display: flex;
     flex-wrap: wrap;
   }
-
-
-
-
-
 }
 
 @media screen and (max-width: 520px) {
