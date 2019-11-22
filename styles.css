@@ -637,6 +637,10 @@ footer .cities {
 #services-grey {
   position: static;
 }
+.header-image,
+.cities  {
+  display: none;
+}
 
 
 }
@@ -663,10 +667,7 @@ footer .cities {
 .service {
   width: 100%;
 }
-.header-image,
-.cities  {
-  display: none;
-}
+
 
 
 }
