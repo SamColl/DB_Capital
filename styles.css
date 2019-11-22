@@ -9,10 +9,10 @@
   font-weight: bold;
 }
 body {
-  max-width: 100%;
+  max-width: 1350px;
   padding: 0 3%;
   background-color: #eeeeee;
-  margin:0;
+  margin: 0 auto;
 }
 .main-container {
   background-color: white;
@@ -164,6 +164,7 @@ header
   background: white;
   width: 94%;
   top: 0;
+  max-width: 1350px;
 }
 
 .logo img {
@@ -610,6 +611,7 @@ footer .cities {
 .hard-asset,
 .soft-asset {
   width: 90%;
+  margin: 0 auto;
 }
 .service-image img {
   width: 45px;
