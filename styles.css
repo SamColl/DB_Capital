@@ -72,6 +72,7 @@ font-size: 1em;
   font-size: 2em;
   color: #58585a;
   text-align: center;
+  margin-bottom: 2%;
 
 }
 #myLinks {
@@ -620,6 +621,9 @@ footer .cities {
 .service-text  {
   font-size: 0.8em;
 }
+.services-container  {
+  display: block;
+}
 .red-heading,
 .grey-heading,
 .white-heading {
@@ -655,9 +659,7 @@ footer .cities {
     display: flex;
     flex-wrap: wrap;
   }
-  .services-container  {
-    display: block;
-}
+
 .tooltiptext {
   width: 90%;
 }
