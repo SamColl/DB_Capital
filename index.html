@@ -59,7 +59,12 @@
     </div>
   </header>
       <!--mobile hamburger menu -->
-      <div class="mobile-header">
+      <div class="hamburger-icon">
+      <!-- "Hamburger menu" / "Bar icon" to toggle the navigation links -->
+      <a href="javascript:void(0);" class="icon" onclick="myHamburger()">
+        <i class="fa fa-bars"></i>
+      </a>
+    </div>
   <!-- Navigation links (hidden by default) -->
     <div id="myLinks">
       <a href="#services">Services</a>
@@ -68,11 +73,8 @@
       <a href="#people">People</a>
       <a href="#contact">Contact</a>
     </div>
-  <!-- "Hamburger menu" / "Bar icon" to toggle the navigation links -->
-  <a href="javascript:void(0);" class="icon" onclick="myFunction()">
-    <i class="fa fa-bars"></i>
-  </a>
-</div>
+
+
 
 
   <section class="hero">
@@ -84,8 +86,11 @@
   </div>
   </section>
   <a name="services"></a><h1 class="grey-heading" id="services-grey">Our Services</h1>
+   <button onclick="topFunction()" id="myBtn" title="Go to top">Top</button>
+
   <section class="services-container">
     </a>
+
     <div class="service" id="tooltip">
       <span class="tooltiptext">Guidance and Advice to find the most appropriate
         Lease or Rental Structure to meet corporate asset acquisition objectives</span>
@@ -370,6 +375,7 @@ and benefits are essential issues to fully understand at the outset.</span>
     <li>Chicago</li>
   </ul>
 <script type="text/javascript"  src="script.js"></script>
+
 <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
 
 </footer>
