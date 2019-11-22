@@ -275,8 +275,11 @@ header
 }
 
 /* Show the tooltip text when you mouse over the tooltip container */
-#tooltip:hover .tooltiptext {
+
+@media(any-hover) {
+   #tooltip:hover .tooltiptext {
   visibility: visible;
+}
 }
 /* Specialism section styles */
 
@@ -682,5 +685,8 @@ footer .cities {
   .wave-divider-opp,
   .wave-divider-dark {
     display: none;
+  }
+  .hard-asset-container {
+    margin-bottom: 0;
   }
 }
