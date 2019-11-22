@@ -178,11 +178,13 @@ header
   display: flex;
   list-style: none;
   justify-content: flex-end;
-
+}
+.main-menu ul {
+ padding-top: 50px;
 }
 .main-menu ul li,
 .fixed-main-menu ul li {
-  margin: 2%;
+  margin: 4%;
 }
 .main-menu,
 .fixed-main-menu {
