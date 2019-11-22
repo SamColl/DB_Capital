@@ -277,7 +277,7 @@ header
 /* Show the tooltip text when you mouse over the tooltip container */
 
 @media(any-hover) {
-   #tooltip:hover .tooltiptext{
+   #tooltip:hover .tooltiptext {
   visibility: visible;
 }
 }
