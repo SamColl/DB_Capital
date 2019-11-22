@@ -618,6 +618,12 @@ footer .cities {
 .service-image img {
   width: 45px;
 }
+.tooltiptext {
+  width: 90%;
+}
+.service {
+  width: 100%;
+}
 .service-text  {
   font-size: 0.8em;
 }
@@ -660,12 +666,7 @@ footer .cities {
     flex-wrap: wrap;
   }
 
-.tooltiptext {
-  width: 90%;
-}
-.service {
-  width: 100%;
-}
+
 
 
 
