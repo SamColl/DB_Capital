@@ -655,7 +655,7 @@ footer .cities {
     display: flex;
     flex-wrap: wrap;
   }
-  .service-container  {
+  .services-container  {
     display: block;
 }
 .tooltiptext {
