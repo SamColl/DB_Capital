@@ -273,6 +273,9 @@ header
   position: absolute;
   z-index: 1;
 }
+#tooltiptext-mobile {
+  display: none;
+}
 
 /* Show the tooltip text when you mouse over the tooltip container */
 
@@ -280,6 +283,16 @@ header
    #tooltip:hover .tooltiptext {
   visibility: visible;
 }
+.tooltip-button {
+    border: none;
+    margin: 2%;
+    background: none;
+    text-decoration: underline;
+}
+.tooltip-button p {
+  font-size: 1.5em;
+}
+
 
 /* Specialism section styles */
 
@@ -580,6 +593,11 @@ footer .cities {
     flex-wrap: wrap;
   }
 }
+@media screen and (min-width: 670px) {
+  .tooltip-button {
+    display: none;
+  }
+}
 @media screen and (max-width:669px) {
 
   ul.cities  {
@@ -619,14 +637,22 @@ footer .cities {
 .service-image img {
   width: 45px;
 }
+
 #tooltip .tooltiptext {
-  width: 90%;
+  display: none;
 }
+/*
+#tooltip .tooltiptext-mobile {
+  display: block;
+
+}
+*/
 .service {
   width: 100%;
 }
 .service-text  {
-  font-size: 0.8em;
+  display: none;
+
 }
 .services-container  {
   display: block;

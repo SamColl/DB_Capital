@@ -41,6 +41,15 @@ function myHamburger() {
 
 
 
-// When the user scrolls down 20px from the top of the document, show the button
 
-//Get the button:
+
+function myDropdownFunction()  {
+
+  var x = document.getElementById("tooltiptext-mobile");
+  if (x.style.display === "none") {
+    x.style.display = "block";
+  } else {
+    x.style.display = "none";
+  }
+
+}
