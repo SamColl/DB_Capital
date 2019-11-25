@@ -38,37 +38,3 @@ function myHamburger() {
     x.style.display = "block";
   }
 }
-
-
-/*
-function myDropdownFunction1()  {
-
-  var x = document.getElementById("mobile-tooltip1");
-
-  if (x.style.display === "none") {
-    x.style.display = "block";
-  } else {
-    x.style.display = "none";
-  }
-}
-function myDropdownFunction2()  {
-
-  var x = document.getElementById("mobile-tooltip2");
-
-  if (x.style.display === "none") {
-    x.style.display = "block";
-  } else {
-    x.style.display = "none";
-  }
-}
-function myDropdownFunction3()  {
-
-  var x = document.getElementById("mobile-tooltip3");
-
-  if (x.style.display === "none") {
-    x.style.display = "block";
-  } else {
-    x.style.display = "none";
-  }
-}
-*/
