@@ -273,7 +273,7 @@ header
   position: absolute;
   z-index: 1;
 }
-#tooltiptext-mobile {
+.tooltiptext-mobile {
   display: none;
 }
 
@@ -639,7 +639,18 @@ footer .cities {
 }
 
 #tooltip .tooltiptext {
-  display: none;
+  visibility: visible;
+  width: 90%;
+  background-color: white;
+  color: #58585a;
+  text-align: left;
+  padding: 1.5%;
+  border-radius: 6px;
+  font-family: SFPro;
+  position: static;
+}
+.service-text p {
+  font-weight: bold;
 }
 /*
 #tooltip .tooltiptext-mobile {
@@ -650,10 +661,7 @@ footer .cities {
 .service {
   width: 100%;
 }
-.service-text  {
-  display: none;
 
-}
 .services-container  {
   display: block;
 

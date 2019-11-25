@@ -40,16 +40,35 @@ function myHamburger() {
 }
 
 
+/*
+function myDropdownFunction1()  {
 
+  var x = document.getElementById("mobile-tooltip1");
 
-
-function myDropdownFunction()  {
-
-  var x = document.getElementById("tooltiptext-mobile");
   if (x.style.display === "none") {
     x.style.display = "block";
   } else {
     x.style.display = "none";
   }
-
 }
+function myDropdownFunction2()  {
+
+  var x = document.getElementById("mobile-tooltip2");
+
+  if (x.style.display === "none") {
+    x.style.display = "block";
+  } else {
+    x.style.display = "none";
+  }
+}
+function myDropdownFunction3()  {
+
+  var x = document.getElementById("mobile-tooltip3");
+
+  if (x.style.display === "none") {
+    x.style.display = "block";
+  } else {
+    x.style.display = "none";
+  }
+}
+*/
