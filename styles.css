@@ -303,6 +303,9 @@ header
    .tooltip:hover .tooltiptext {
   visibility: visible;
 }
+.tooltip:hover, .tooltip.hover_effect {
+  visibility: visible;
+}
 .tooltip-button {
     border: none;
     margin: 2%;
