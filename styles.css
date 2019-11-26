@@ -47,8 +47,8 @@ font-size: 1em;
 }
 .anchor{
   display: block;
-  height: 135px; /*same height as header*/
-  margin-top: -135px; /*same height as header*/
+  height: 165px; /*same height as header*/
+  margin-top: -165px; /*same height as header*/
   visibility: hidden;
 }
 /* mobile menu styles */
@@ -261,10 +261,23 @@ header
 }
 .service-text {
   text-align: center;
-  text-decoration: underline;
+  display: flex;
+}
+/*
+.service-text-icon {
+  display: flex;
+}
+*/
+.service.tooltip svg {
+  width: 15px;
+  flex-shrink: 0;
+  margin-left:5px;
+
 }
 
-
+.service.tooltip svg g {
+  fill: #9d1c20;
+}
 /* Tooltip text */
 .tooltip .tooltiptext {
   visibility: hidden;
