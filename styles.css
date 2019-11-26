@@ -255,6 +255,7 @@ header
 }
 .service-text {
   text-align: center;
+  text-decoration: underline;
 }
 
 
@@ -570,6 +571,7 @@ footer .cities {
     width: 100%;
   }
 }
+
 @media screen and (min-width:670px) {
   .mobile-nav
     {
@@ -598,6 +600,14 @@ footer .cities {
     display: none;
   }
 }
+@media screen and (max-width:850px) {
+  .fixed-main-menu ul{
+    font-size: 0.9em;
+  }
+  .fixed-main-menu ul li{
+    margin: 3%;
+  }
+}
 @media screen and (max-width:669px) {
 
   ul.cities  {
@@ -619,9 +629,7 @@ footer .cities {
 .main-menu {
   display: none;
 }
-.fixed-header {
-  display: none;
-}
+
 .logo img {
   margin: 5% 5% 1% 5%;
 }
