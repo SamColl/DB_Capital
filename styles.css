@@ -679,6 +679,9 @@ footer .cities {
   font-family: SFPro;
   position: static;
 }
+.service.tooltip svg {
+  display: none;
+}
 .service-text p {
   font-weight: bold;
 }
