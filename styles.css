@@ -45,6 +45,12 @@ font-size: 1em;
 .main-menu ul li a:hover {
   color: #b2b2b2;
 }
+.anchor{
+  display: block;
+  height: 135px; /*same height as header*/
+  margin-top: -135px; /*same height as header*/
+  visibility: hidden;
+}
 /* mobile menu styles */
 #myLinks {
   overflow: hidden;
@@ -558,11 +564,13 @@ footer .cities {
   .hero-text h2 {
     font-size: 1.8em;
   }
-  .logo img {
+  .logo img,
+  .fixed-header img {
     width: 200px;
   }
+
   .main-menu ul li a {
-    font-size: 0.95em;
+    font-size: 0.9em;
   }
   body {
     padding: 0;
@@ -580,6 +588,7 @@ footer .cities {
   a.icon {
     display: none;
   }
+
 
 }
 @media screen and (min-width:670px) and (max-width:940px) {
