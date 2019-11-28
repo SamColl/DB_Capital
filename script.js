@@ -48,4 +48,3 @@ function myMobileTooltip() {
     x.style.visibility = "visible";
   }
 }
-document.querySelector("svg").addEventListener('touchstart', f);
