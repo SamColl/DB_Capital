@@ -674,7 +674,7 @@ header.cities  {
   width: 45px;
 }
 
-.tooltip-container .tooltiptext {
+.tooltip .tooltiptext {
   visibility: visible;
   width: 90%;
   background-color: white;
@@ -685,18 +685,19 @@ header.cities  {
   font-family: SFPro;
   position: static;
 }
+
 .service.tooltip svg {
   display: none;
 }
 .service-text p {
   font-weight: bold;
 }
-/*
+
 #tooltip .tooltiptext-mobile {
   display: block;
 
 }
-*/
+
 .service {
   width: 100%;
 }
