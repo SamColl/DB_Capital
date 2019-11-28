@@ -18,8 +18,10 @@ body {
   background-color: white;
   width: 100%;
 }
-header,
-.fixed-header {
+
+
+header
+{
   width: 100%;
   background-color: white;
   position: sticky;
@@ -34,11 +36,8 @@ p {
 .main-menu ul li a {
 font-size: 1.1em;
 }
-.fixed-main-menu ul li a {
-font-size: 1em;
-}
-.main-menu ul li a,
-.fixed-main-menu ul li a {
+
+.main-menu ul li a {
   text-decoration: none;
   color: #333333;
   font-family: SFPro, Roboto, sans-serif
@@ -49,8 +48,8 @@ font-size: 1em;
 }
 .anchor{
   display: block;
-  height: 165px; /*same height as header*/
-  margin-top: -165px; /*same height as header*/
+  height: 195px; /*same height as header*/
+  margin-top: -195px; /*same height as header*/
   visibility: hidden;
 }
 /* mobile menu styles */
@@ -115,13 +114,14 @@ header
   list-style: none;
   color: #9d0a0e;
   display: flex;
-  justify-content: space-evenly;
+  justify-content: space-around;
   font-size: 1em;
   align-items: center;
   height: 100%;
   margin: 0;
   padding-left: 0;
   padding-top: 1.8%;
+  width: 100%;
 }
 
 .hide {
@@ -153,11 +153,12 @@ header
   margin: auto 0;
 }
 
-.menulogo-container,
-.fixed-menu-logo-container  {
+.menulogo-container
+ {
   display: flex;
   justify-content: space-between;
   align-items: center;
+  padding-right: 3%;
 }
 .menulogo-container {
   height: 150px;
@@ -182,21 +183,20 @@ header
   padding-top: 2%;
 }
 
-.main-menu ul,
-.fixed-main-menu ul {
+.main-menu ul {
   display: flex;
   list-style: none;
   justify-content: flex-end;
+  width: 100%;
 }
 .main-menu ul {
  padding-top: 50px;
 }
-.main-menu ul li,
-.fixed-main-menu ul li {
+.main-menu ul li {
   margin: 4%;
 }
-.main-menu,
-.fixed-main-menu {
+.main-menu
+ {
   width: 100%;
 }
 /* hero section styles */
@@ -246,7 +246,7 @@ header
   align-items: center;
   padding: 3%;
   background-color: white;
-  
+
 
 }
 .service {
@@ -560,12 +560,13 @@ footer .cities {
   list-style: none;
   color: #9d0a0e;
   display: flex;
-  justify-content: space-evenly;
+  justify-content: space-around;
   font-size: 1em;
   align-items: center;
   height: 100%;
   margin: 0;
   padding-left: 0;
+  width: 100%;
 }
 
 /* media queries */
@@ -602,9 +603,7 @@ footer .cities {
   body {
     padding: 0;
   }
-  .fixed-menu-logo-container {
-    width: 100%;
-  }
+
 }
 
 @media screen and (min-width:670px) {
@@ -636,17 +635,10 @@ footer .cities {
     display: none;
   }
 }
-@media screen and (max-width:850px) {
-  .fixed-main-menu ul{
-    font-size: 0.9em;
-  }
-  .fixed-main-menu ul li{
-    margin: 3%;
-  }
-}
+
 @media screen and (max-width:669px) {
 
-  ul.cities  {
+header.cities  {
     display: none;
   }
   .asset-image img {

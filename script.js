@@ -1,24 +1,18 @@
 
-/*window.onscroll = function() {scrollFunction(x)};
+window.onscroll = function() {scrollFunction(x)};
 
 function scrollFunction(x) {
   if ((x.matches) && ((document.body.scrollTop > 60) || (document.documentElement.scrollTop > 60))) {
-    $(".menulogo-container").hide();
-    $(".header-image").hide();
-    $(".fixed-header").css('display', 'flex');
-    $(".hero").css('top', '96px');
+
     $("#myBtn").show();
 
   } else  {
-    $(".menulogo-container").show();
-    $(".header-image").show();
-    $(".fixed-header").css('display', 'none');
-    $(".hero").css('top', '0px');
+
     $("#myBtn").hide();
 }
 
 }
-*/
+
 // When the user clicks on the button, scroll to the top of the document
 function topFunction() {
   document.body.scrollTop = 0; // For Safari
