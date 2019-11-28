@@ -686,6 +686,23 @@ header.cities  {
   position: static;
 }
 
+#main-header .cities {
+  display: none;
+}
+footer ul.cities  {
+  flex-wrap: wrap;
+}
+footer ul.cities  li {
+  margin: 0 10px;
+  text-align: center;
+  width: 30%;
+}
+footer ul.cities li.dot {
+  display: none;
+}
+.city {
+  max-width: 25%;
+}
 .service.tooltip svg {
   display: none;
 }
