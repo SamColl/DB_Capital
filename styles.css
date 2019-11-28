@@ -20,8 +20,10 @@ body {
 }
 header,
 .fixed-header {
-  width: 100%;
+  width: 94%;
   background-color: white;
+  position: fixed;
+  z-index: 50;
 
 }
 
