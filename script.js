@@ -24,12 +24,7 @@ function topFunction() {
   document.documentElement.scrollTop = 0; // For Chrome, Firefox, IE and Opera
 }
 
-$(document).ready(function() {
-    $('.hover').on('touchstart touchend', function(e) {
-        e.preventDefault();
-        $(this).toggleClass('hover_effect');
-    });
-});
+
 
 var x = window.matchMedia("(min-width: 670px)")
 scrollFunction(x) // Call listener function at run time
@@ -44,3 +39,13 @@ function myHamburger() {
     x.style.display = "block";
   }
 }
+
+function myMobileTooltip() {
+  var x = document.getElementsByClassName("tooltiptext");
+  if (x.style.visibility === "visible") {
+    x.style.visibility = "none";
+  } else {
+    x.style.visibility = "visible";
+  }
+}
+document.querySelector

@@ -263,6 +263,9 @@ header
   text-align: center;
   display: flex;
 }
+.hover {
+  text-decoration: none;
+}
 /*
 .service-text-icon {
   display: flex;
@@ -314,7 +317,17 @@ header
   font-size: 1.5em;
 }
 
+img.cancel  {
+  width: 20px;
+  position: relative;
+  left: 10px;
+  top: 10px;
 
+}
+.close {
+  background:none;
+  border: none;
+}
 /* Specialism section styles */
 
 .specialisms {
@@ -669,7 +682,7 @@ footer .cities {
   width: 45px;
 }
 
-.tooltip .tooltiptext {
+.tooltip-container .tooltiptext {
   visibility: visible;
   width: 90%;
   background-color: white;
