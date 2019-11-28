@@ -246,7 +246,7 @@ header
   align-items: center;
   padding: 3%;
   background-color: white;
-  margin-top: 12%;
+  
 
 }
 .service {
@@ -342,9 +342,7 @@ img.cancel  {
   color: #58585a;
 
 }
-#services-grey {
-    top: 100px;
-}
+
 .white-heading {
   color: white;
 }
